@@ -99,7 +99,7 @@ contactLink.addEventListener('click', () => {
 function formatAMPM() {
   const date = new Date();
   const month = date.toLocaleString('default', { month: 'long' });
-  const day = date.getDay();
+  const day = date.getDate();
   const year = date.getFullYear();
   let hours = date.getHours();
   let minutes = date.getMinutes();
